@@ -1,0 +1,32 @@
+<html>
+	<body>
+		<div class="main">
+			<div class="header">Titulo</div>
+			<div class="content">
+				
+			</div>
+			<div class="footer">
+				<div class="nav">
+					<ul>
+						<li>section 1</li>
+						<li>section 2</li>
+						<li>section 3</li>
+						<li>section 4</li>
+						<li>section 5</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="mobile-detect.min.js"></script>
+		<script>
+		var md = new MobileDetect(window.navigator.userAgent);
+		var url = window.location.href|| document.URL;
+		var filename = url.split('/').pop();
+ 		if (md.mobile()) {
+ 			console.log('es movil');
+ 			console.log('carga la pagina: /mobile/'+filename);
+        	//location.href = (md.mobileGrade() === 'A') ? '/mobile/' : '/lynx/';
+    	}
+		</script>
+	</body>
+</html>

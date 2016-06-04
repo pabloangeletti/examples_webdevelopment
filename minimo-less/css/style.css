@@ -1,0 +1,18 @@
+.miCaja {
+  width: 20px;
+  height: 20px;
+  background-color: #fffaa aa;
+}
+.cajaGeneral {
+  width: 20px;
+  height: 20px;
+  background-color: #fffaa aa;
+  margin-top: 20px;
+  background-color: #f938ab;
+}
+.cajaGeneral .otrodentro {
+  padding-bottom: 20px;
+}
+.cajaGeneral .otrodentro.enlaces {
+  text-decoration: none;
+}
