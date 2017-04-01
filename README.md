@@ -12,7 +12,7 @@ https://nodejs.org/en/
 En la carpeta del proyecto y con un terminal:
 
     npm install
-    npm install -g grunt-cli
+    npm install -g grunt grunt-cli
 
 Una vez instaladas las dependencias:
 
