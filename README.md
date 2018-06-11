@@ -1,10 +1,10 @@
 # Ejemplos de tareas y plantillas para los alumnos
-Ejemplos para los alumnos de los cursos de mobiles marketing/mobile web development
 
+Ejemplos para los alumnos de los cursos de mobile marketing/mobile web development
 
 **Requisitos**
 
-Se necesitas tener instalado node.js y npm para la gestión de paquetes:
+Se necesita tener instalado node.js y npm para la gestión de paquetes:
 https://nodejs.org/en/
 
 **Instalar las dependencias**
@@ -12,9 +12,7 @@ https://nodejs.org/en/
 En la carpeta del proyecto y con un terminal:
 
     npm install
-    npm install -g grunt grunt-cli
 
 Una vez instaladas las dependencias:
 
     grunt
-
